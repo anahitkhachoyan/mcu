@@ -39,8 +39,8 @@ int main()
         switch(symbol)
         {
             case 'v':
-	        printf("device name: " DEVICE_NAME);
-            printf("farmwire version: " DEVICE_VRSN);
+	        printf("device name: " DEVICE_NAME "\n");
+            printf("farmwire version: " DEVICE_VRSN "\n");
 	        break;
 
         default:
